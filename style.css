@@ -31,7 +31,7 @@ body {
     left: 180px;
     right: 180px;
     margin-top: 250px;
-    color: rgb(236, 240, 185);
+    color: rgb(231, 238, 142);
     text-align: justify;
     text-indent: 50px;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .chamada {
-    border: 3px solid rgb(236, 240, 185);
+    border: 3px solid rgb(226, 231, 149);
     border-radius: 10px;
     width: 100%;
     margin-bottom: 50px;
@@ -91,7 +91,7 @@ a {
  } 
 
  a:hover {
-    color: rgb(163, 170, 61);
+    color: rgb(255, 255, 255);
  }
 
 #text-call {
@@ -100,7 +100,7 @@ a {
 
 .link {
     font-size: 25px;
-    color: rgb(236, 240, 185);
+    color: rgb(255, 239, 148);
     margin-bottom: 200px;
 }
 
@@ -112,3 +112,4 @@ a {
     opacity: 0.1;
     transition: 1s;
 }
+
