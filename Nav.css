@@ -114,6 +114,10 @@ a:hover {
 	}
 
 }
-
+.color{
+	box-shadow: -5px -10px 30px rgb(255, 243, 175), 6px 9px 15px;
+	-webkit-box-shadow: -5px -10px 30px  white 0, 6px 9px 15px;
+	-moz-box-shadow: -5px -10px 30px white 6px 9px 15px;
+}
 
 	
