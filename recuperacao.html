@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Senha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../login.css">
+    <script defer src="../script.js"></script>
+
+</head>
+
+
+<body>
+
+    <header> <!--Cabeçalho-->
+        <nav> <!--Menu de navegação-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Minha Logo</label>
+
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Cadastro</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="recuperacao">
+        <div class="recuperacao"> 
+            <h1 class="text-center">Recuperação de Senha</h1>
+            <h6>Insira seu e-mail e receba o link para redefinir sua senha.</h6>
+            <form class="needs-validation"> <!--Formulário de recuperação de senha-->
+                <div class="form-group was-validated">
+                    <label class="form-label" for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">
+                        <p>Por favor, insira o seu e-mail!</p>
+                    </div>
+                    <br>
+                    <button value="enviar" id="btnRec">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <div class="color">
+        <section>
+            <!-- Footer -->
+            <footer class="text-center text-white" id="footer">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: CTA -->
+                    <section class="">
+                        <p class="d-flex justify-content-center align-items-center">
+                            <span class="me-3">Faça seu Login:</span>
+                            <button type="button" class="btn btn-outline-light btn-rounded">
+                                Entrar
+                            </button>
+                        </p>
+                    </section>
+                </div>
+
+                <div class="footer1">
+                    <div class="row1">
+                        <a href="#">
+                            <img src="imagens/i.png" alt="Ícone do Instagram." width="40">
+                        </a>
+                        <a href="#">
+                            <img src="imagens/y.png" alt="Ícone do Youtube." width="66">
+                        </a>
+                        <a href="#">
+                            <img src="imagens/f.png" alt="Ícone do Facebook." width="64">
+                        </a>
+                        <a href="#">
+                            <img src="imagens/t.png" alt="Ícone do Twitter." width="80">
+                        </a>
+                    </div>
+
+                    <h5>Ajuda</h5>
+
+                    <div class="row1">
+                        <ul>
+                            <li><a href="#">Termos de uso</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Central de ajuda</a></li>
+                            <li><a href="#">Preferência de Cookie</a></li>
+                            <li><a href="#">Informações Corporativas</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="text">
+                    Van Bot Copyright © 2022 - Todos os direitos reservados:
+                    <a class="text-white">Van Bot</a>
+                </div>
+            </footer>
+        </section>
+    </div>
+    
+</body>
+
+
+</html>
