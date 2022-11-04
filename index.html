@@ -13,8 +13,9 @@
 </head>
 
 <body>
-    <main>
-        <nav>
+
+    <header> <!--Cabeçalho-->
+        <nav> <!--Menu de navegação-->
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
                 <i class="fas fa-bars"></i>
@@ -22,8 +23,6 @@
             <label class="logo">Minha Logo</label>
 
             <ul>
-
-                
                 <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Contato</a></li>
@@ -31,12 +30,12 @@
                 <li><a href="#">Login</a></li>
             </ul>
         </nav>
+    </header>
 
-
-        <div class="gif-vg">
+    <main> <!--Conteúdo da página-->
+        <div class="gif-vg"> <!--Gif com a descrição do serviço-->
             <img src="imagens/van-gogh.gif" class="img-fluid"
                 alt="A Noite Estrelada: Obra-prima de Van Gogh. (Foto: Reprodução/Marwan Medhat)">
-
             <label id="van-bot">VAN BOT</label>
             <label class="text-vg">O Van Bot é um robô que te ajudará a obter o layout do seu site do jeitinho que você
                 deseja. Apenas com o preenchimento de um questionário, o Van criará um layout de acordo com as suas
@@ -44,7 +43,7 @@
                 proporcionando uma boa experiência ao usuário.</label>
         </div>
 
-        <div class="chamada">
+        <div class="chamada"> <!--Chamada de ação-->
             <div id="container-img">
                 <img id="img-robot" src="imagens/robot.png" alt="Robot">
             </div>
@@ -52,10 +51,9 @@
                 <div id="text-call">
                     <ul type="square">
                         <li>
-                            <span class="question">Deseja saber mais sobre o funcionamento do serviço e planos de
-                                assinatura disponíveis?</span>
+                            <span class="question">Deseja saber mais sobre o funcionamento do serviço e conhecer nossos planos de assinatura?</span>
                             <br>
-                            <span class="link"><a href="#">Acesse a página de planos.</a></span>
+                            <span class="link"><a href="#">Acesse a página de serviços.</a></span>
                         </li>
                         <li>
                             <span class="question">Deseja realizar a sua inscrição na nossa lista de espera?</span>
@@ -68,42 +66,38 @@
         </div>
     </main>
 
+    
     <div class="color">
-        <section class="">
+        <section>
             <!-- Footer -->
-            <footer class="text-center text-white" style="background-color:rgb(85, 135, 201);">
-                <font-family: 'CormorantGaramond' , serif;> </font-family:>
-
+            <footer class="text-center text-white" id="footer">
                 <!-- Grid container -->
                 <div class="container p-4 pb-0">
                     <!-- Section: CTA -->
-                    <section class="">
+                    <section>
                         <p class="d-flex justify-content-center align-items-center">
                             <span class="me-3">Faça seu Login:</span>
                             <button type="button" class="btn btn-outline-light btn-rounded">
                                 Entrar
                             </button>
                         </p>
-
                     </section>
-                    <!-- Section: CTA -->
                 </div>
-                <!-- Grid container -->
+
                 <div class="footer1">
                     <div class="row1">
                         <a href="#">
-                            <img src="imagens/i.png" alt="" width="40">
+                            <img src="imagens/i.png" alt="Ícone do Instagram." width="40">
                         </a>
                         <a href="#">
-                            <img src="imagens/y.png" alt="" width="66">
+                            <img src="imagens/y.png" alt="Ícone do Youtube." width="66">
                         </a>
                         <a href="#">
-                            <img src="imagens/f.png" alt="" width="64">
+                            <img src="imagens/f.png" alt="Ícone do Facebook." width="64">
                         </a>
                         <a href="#">
-                            <img src="imagens/t.png" alt="" width="80">
+                            <img src="imagens/t.png" alt="Ícone do Twitter." width="80">
                         </a>
-                   
                     </div>
 
                     <h5>Ajuda</h5>
@@ -117,19 +111,14 @@
                             <li><a href="#">Informações Corporativas</a></li>
                         </ul>
                     </div>
-
-
                 </div>
 
                 <!-- Copyright -->
-                <div class="text" style="background-color: rgb(85, 135, 201);">
-                    <font-family: 'CormorantGaramond' , serif;></font-family:>
+                <div class="text">
                     Van Bot Copyright © 2022 - Todos os direitos reservados:
-                    <a class="text-white" href="">Van Bot</a>
+                    <a class="text-white" href="#">Van Bot</a>
                 </div>
-                <!-- Copyright -->
             </footer>
-            <!-- Footer -->
         </section>
     </div>
 </body>
