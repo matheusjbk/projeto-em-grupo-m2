@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fontes/Staatliches.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond';
+    src: url('../fontes/CormorantGaramond.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Staatliches', sans-serif;
+}
+
+/*cabeçalho*/
+
+nav {
+    background: rgb(85, 135, 201);
+    height: 80px;
+    width: 100%;
+    box-shadow: 6px 9px 15px rgb(255, 241, 160);
+    font-family: 'CormorantGaramond', serif;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    background: rgba(255, 255, 255, 0.192);
+    transition: .5s;
+    text-decoration: none;
+    color: white;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+}
+
+/*rodape*/
+
+.color {
+    box-shadow: -5px -10px 30px rgb(255, 243, 175), 6px 9px 15px;
+    -webkit-box-shadow: -5px -10px 30px white 0, 6px 9px 15px;
+    -moz-box-shadow: -5px -10px 30px white 6px 9px 15px;
+    font-family: 'Staatliches';
+}
+
+.footer1 {
+    font-family: 'Staatliches';
+    text-align: center;
+}
+    
+.footer1 .row1 {
+    color: white;
+    font-family: 'Staatliches';
+}
+
+.footer1 .row1 a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+    
+.footer1 .row1 a:hover{
+    color:#fff;
+}
+    
+.footer1 .row ul{
+    width:100px;
+}
+
+/*frases do final do rodape*/
+
+.footer1 .row1 ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+     
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer1 .row1 ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer1 .row1 a i{
+    margin:0% 3%;
+    }
+}
