@@ -4,127 +4,110 @@ body{
     background-image: url(imagens/girassois\ van-gogh.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+     color: white;
+     font-family:'CormorantGaramond';
+     
 }
 
 
-/*rodape e cabeçalho*/
 
-* {
-    padding: 0;
-    margin: 0;
+/* Ajustes tema  */
+.tema{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family:'CormorantGaramond';
+}
+
+/* Ajustes nossa  */
+.nossa{
+    width: 210px;
+    display: block;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.nossa1{
+    margin-top: 18px;
+    width: 168px;
+    display: block;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustes equipe  */
+.equipe{
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding: 80px;  
+    
+}
+
+.text-white{
     text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-
-}
-
-
-nav {
-    background: rgb(85, 135, 201);
-    height: 80px;
-    width: 100%;
-    box-shadow: 6px 9px 15px rgb(255, 241, 160);
-    font-family: 'CormorantGaramond', serif;
-
-
-}
-
-label.logo {
     color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
 
 }
 
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+.nomelara {
+    margin-top: 23px;
+
 
 }
 
-nav ul li a {
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
+.equipe > div {
+    flex: 1 1 100px; 
+    align-items: center;
+    margin: 20px;
+    
 }
 
-a.active,
-a:hover {
-    background: rgba(255, 255, 255, 0.192);
-    transition: .5s;
-
-}
-
-.checkbtn {
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display: none;
-}
-
-@media (max-width: 952px) {
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 858px) {
-    .checkbtn {
-        display: block;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    a:hover,
-    a.active {
-        background: none;
-       
-    }
-
-    #check:checked~ul {
-        left: 0;
-    }
-
-}
-
-.color {
-    box-shadow: -5px -10px 30px rgb(255, 243, 175), 6px 9px 15px;
-    -webkit-box-shadow: -5px -10px 30px white 0, 6px 9px 15px;
-    -moz-box-shadow: -5px -10px 30px white 6px 9px 15px;
+.equipe p{
     font-family: 'Staatliches';
-}
- 
-
-
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'CormorantGaramond';
+    border-radius: 50px; 
   
+}
+
+.equipe h3{
+    font-family: 'Staatliches';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'CormorantGaramond';
+    border-radius: 50px; 
+    
+}
+/* rodape*/
+
+section{
+    text-align: center;
+}
+
+footer {
+    
+    margin-top: 12%;
+}
+
+h6{
+    font-size: 22px;
+    font-family:'CormorantGaramond';
+}
+
+h4{
+    font-size: 28px;
+    font-family:'CormorantGaramond';
+}
+h3{
+    font-size: 20px;
+}
+h2{
+    font-size: 64px;
+}

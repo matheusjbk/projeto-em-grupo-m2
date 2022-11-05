@@ -149,7 +149,10 @@ a:hover {
     color: white;
     transition: 0.5s;
 }
-    
+ion-icon {
+    font-size: 32px;
+ }
+
 .footer1 .row1 a:hover{
     color:#fff;
 }
