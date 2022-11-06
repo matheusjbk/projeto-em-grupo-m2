@@ -10,26 +10,6 @@ let numero=document.querySelector('#numero');
 let btn=document.querySelector('#btnCadastro');
 let error=document.querySelector('#error');
 
-//Função para validação de senha
-const validaSenha=()=>{
-    if(senha.length<8){
-        return 'err';
-    }else{
-        return 'success';
-    }
-}
-
-//Função para comparar se as senhas estão iguais
-const senhaIgual=()=>{
-    if(senha2==''){
-        return 'err';
-    }else if(senha2!=senha.value){
-        return 'err';
-    }else{
-        return 'success';
-    }
-}
-
 //Função para limpar o formulário em caso de preenchimento errado
 const limparForm=()=>{
     document.querySelector('#uf').value='';
