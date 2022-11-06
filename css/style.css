@@ -127,6 +127,10 @@ a:hover {
 
 /*rodape*/
 
+#footer{
+    background-color: rgb(85, 135, 201);
+}
+
 .color {
     box-shadow: -5px -10px 30px rgb(255, 243, 175), 6px 9px 15px;
     -webkit-box-shadow: -5px -10px 30px white 0, 6px 9px 15px;
@@ -149,10 +153,7 @@ a:hover {
     color: white;
     transition: 0.5s;
 }
-ion-icon {
-    font-size: 32px;
- }
-
+    
 .footer1 .row1 a:hover{
     color:#fff;
 }
