@@ -37,7 +37,7 @@ cep.addEventListener('focusout', async()=>{
     const search=cep.value.replace('-', '');
 
     if(cepValido(cep)){
-        const response=await fetch(`http://viacep.com.br/ws/${search}/json/`);
+        const response=await fetch(`https://viacep.com.br/ws/${search}/json/`);
         const dados=await response.json();
         if(dados.hasOwnProperty('erro')){
             alert('Erro! CEP não encontrado.');
