@@ -14,6 +14,12 @@
     font-style: normal;
 }
 
+
+
+
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -24,8 +30,9 @@
 
 body{
     font-family: 'Staatliches', sans-serif;
-    background-color: rgb(29, 92, 173);
+    background-color: rgb(29, 92, 173) !important;
 }
+
 
 /*cabeçalho*/
 
@@ -117,7 +124,6 @@ a:hover {
     a:hover,
     a.active {
         background: none;
-
     }
 
     #check:checked~ul {
@@ -134,9 +140,11 @@ a:hover {
 
 .color {
     box-shadow: -5px -10px 30px rgb(255, 243, 175), 6px 9px 15px;
-    -webkit-box-shadow: -5px -10px 30px white 0, 6px 9px 15px;
+    -webkit-box-shadow: -5px -10px 30px white 6px 9px 15px;
     -moz-box-shadow: -5px -10px 30px white 6px 9px 15px;
     font-family: 'Staatliches';
+    display: block;
+    
 }
 
 .footer1 {
@@ -144,9 +152,11 @@ a:hover {
     text-align: center;
 }
     
+
 .footer1 .row1 {
     color: white;
     font-family: 'Staatliches';
+    margin-bottom: 15px;
 }
 
 .footer1 .row1 a {
@@ -157,11 +167,18 @@ a:hover {
     
 .footer1 .row1 a:hover{
     color:#fff;
+    background: none;
 }
     
 .footer1 .row ul{
     width:100px;
 }
+
+#icones{
+    width: 40px;
+    margin-top: 1.5rem;
+}
+
 
 /*frases do final do rodape*/
 
