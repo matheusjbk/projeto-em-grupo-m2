@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'CormorantGaramond' ;
+    src: url('../fontes/CormorantGaramond.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fontes/Staatliches.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#body {
+   background-color: rgb(29, 92, 173);
+}
+
+
+
+                            /* TEXTS */
+
+
+
+/* header cards */
+#header{
+    font-family: 'CormorantGaramond';
+    font-weight: bold;
+    font-size: 70px;
+    color: white
+}
+
+/* txt header */
+#txt-header{
+    font-family: 'Staatliches';
+    font-size: 17px;
+    font-style: italic;
+    color: white;
+}
+
+/* name cards */
+#name-cards{
+    font-size: 20px; 
+    margin-top: 1px;
+    font-family: 'Staatliches';
+}
+
+/* R$ cards */
+#rs-price-cards {
+    font-size: 27px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+
+/* price cards */
+#price-card{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: black
+    
+}
+
+/* cents cards */
+#cents-price-card{
+    font-size: 19px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    color: black
+}
+
+/* list cards */
+#txt-card{
+    font-family: "CormorantGaramond";
+    font-size: 23px;
+    font-style: normal; 
+    color:rgb(236, 240, 185);
+}
+
+/* modal1 */
+#txt-modal1{
+    font-family: 'CormorantGaramond';
+    font-size: 20px;
+    text-align: center;
+}
+#txt-modal1::before{
+    content: "Basico";
+    display: block;
+    font-size: 30px;
+    font-family: 'Staatliches';
+    margin-bottom: 15px;
+    text-align: center;
+}
+#txt-modal1 > ul > li{
+    list-style: disc;
+    text-align: start;
+    margin-left: 10px;
+}
+
+/* modal2 */
+#txt-modal2{
+    font-family: 'CormorantGaramond';
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    list-style: circle;
+}
+#txt-modal2::before{
+    content: "Padrao";
+    display: block;
+    font-size: 30px;
+    font-family: 'Staatliches';
+    margin-bottom: 15px;
+    text-align: center; 
+}
+#txt-modal2 > ul > li{
+    list-style: disc;
+    text-align: start;
+    margin-left: 10px;
+}
+
+
+/* modal3 */
+#txt-modal3{
+    font-family: 'CormorantGaramond';
+    font-size: 20px;
+    text-align: center;
+}
+#txt-modal3::before{
+    content: "Premium";
+    display: block;
+    font-size: 30px;
+    font-family: 'Staatliches';
+    margin-bottom: 15px;
+    text-align: center;
+}
+#txt-modal3 > ul > li{
+    list-style: disc;
+    text-align: start;
+    margin-left: 10px;
+}
+
+
+
+                            /* IMAGE */
+
+
+/* image cards */
+#img{
+    display: flex; 
+    justify-content:center;
+    margin-top: 5px;
+    
+
+}
+
+/* image modal */
+#img-modal{
+    display: flex;
+    justify-content: center;
+}
+
+/* background */
+#img-body{
+    opacity: .4;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+
+
+                            /* BOX */
+
+
+/* container box card */
+.card{
+    --bs-card-border-color: none !important;
+    --bs-card-title-spacer-y: none !important;
+    transition: transform 0.7s;
+}
+
+/* box card top */
+#card-top{
+    background-color: rgb(236, 240, 185);   
+}
+/* box card bottom */
+#card-bottom{
+    background-color: black;
+}
+
+/* box modal */
+#box-modal{
+    background-color: rgb(236, 240, 185);
+    margin-top: 200px;
+}
+
+/* backgroud modal */
+#background-modal{
+    backdrop-filter: blur(2px);
+}
+
+
+                            /* BUTTON */
+
+
+
+
+/* button card */
+
+#btn-card1{
+    border: 2px solid rgb(236, 240, 185) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: black;
+    font-family: 'Staatliches';
+    color: rgb(236, 240, 185);
+}
+
+#btn-card2{
+    border: 2px solid rgb(236, 240, 185) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: black;
+    font-family: 'Staatliches';
+    color: rgb(236, 240, 185);
+}
+
+#btn-card3{
+    border: 2px solid rgb(236, 240, 185) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: black;
+    font-family: 'Staatliches';
+    color: rgb(236, 240, 185);
+}
+
+/* button close modal */
+#btn-close{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+/* button modal */
+#div-btn-modal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+#btn-modal{
+    border: 2px solid rgb(236, 240, 185) !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: black;
+    font-family: 'Staatliches';
+    color: rgb(236, 240, 185);
+}
+
+
+
+
+/* HOVER */
+
+div#card1:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#card2:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+div#card3:hover{
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+
+#btn-card1:hover{
+    background-color: rgb(163, 170, 61);
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.7);
+    
+}
+
+
+#btn-card2:hover{
+    background-color: rgb(163, 170, 61);
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.7);
+}
+
+
+#btn-card3:hover{
+    background-color: rgb(163, 170, 61);
+    color: black;
+    box-shadow: 2px 2px 2px 1px rgba(1, 1, 1, 0.7);
+    
+}
+
+
+#btn-modal:hover {
+    transform: translateY(-5px);
+    background-color: rgb(163, 170, 61);
+    color: black;
+}
