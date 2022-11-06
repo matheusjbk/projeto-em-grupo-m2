@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Van Bot - Serviços</title>
+    <link rel="stylesheet" href="css/servico.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="body">
+    
+    <header> <!--Cabeçalho-->
+        <nav> <!--Menu de navegação-->
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="index.html"><img src="imagens/logo.png" alt="Logo"></a></label>
+
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="servico.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+             
+        </nav>
+    </header>
+    
+    <!-- image background -->
+    <img id="img-body" src="imagens/quartoEmArles.jpg" alt="Quarto em Arles">
+    
+    <main>
+        
+        <!-- header cards -->
+        <div class="container py-4 py-xl-5 col-7">
+            <div class="row mb-5">
+                <div class=" text-center mx-auto">
+                    
+                    <h2 id="header">
+                        P L A N O S
+                    </h2>
+                    <p id="txt-header"
+                    class="w-lg-50">Conheça os todos nosso planos </p>
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="row gy-4 gy-xl-0 row-cols-1 row-cols-md-2 row-cols-xl-3 d-xl-flex align-items-xl-center gutter-y mb-5" >
+                
+                <!-- card basico -->
+                <div class="col" >
+                    <div class="card" id="card1">
+
+
+                        <!--  name card basico -->
+                        <div class="card-body text-center p-1"
+                        id="card-top">
+                            
+                            <h6 class="text-uppercase card-subtitle" 
+                            id="name-cards">Basico</h6>
+
+
+                            <!-- image card basico -->
+                            <div id="img">
+
+                            <img class="card-img-top w-75 d-block"
+                            src="./imagens/planoBasico.png" />
+
+                            </div>
+                            
+
+                            <!-- valor do card basico -->
+                            <div id="price-card">
+                                <h5 id="rs-price-cards">R$</h5>
+                                <h4 class="display-4 fw-bold card-title">99</h4>
+                                <h6 id="cents-price-card">90</h6>
+                            </div>
+                        </div>
+
+                        <!-- info card basico -->
+                        <div class="card-footer p-4"
+                        id="card-bottom">
+                            <div>
+                                <ul class="list-unstyled"
+                                 id="txt-card">
+
+                                    
+
+                                    <li class="d-flex mb-2">
+                                        <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2">
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="1em"
+                                            height="1em"
+                                            fill="currentColor"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-check-lg text-primary">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg>
+                                        </span>
+                                        <span>Plano Trimestral</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- button card basico -->
+                            <div id="btn-card-1">
+                                <a class="btn btn-primary d-block w-100"
+                                id="btn-card1"
+                                href="#"
+                                data-toggle="modal"
+                                data-target=".bd-example-modal2"
+                                role="button">SABER MAIS</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal card basico -->
+                <div class="modal fade bd-example-modal2"
+                id="background-modal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+
+                    <div class="modal-dialog modal-sm">
+
+                        <div class="modal-content"
+                        id="box-modal">
+
+                            <div id="btn-close">
+
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                                </button>
+
+                            </div>
+
+                            
+
+                            <div id="txt-modal1">
+                                <ul>
+                                    <li>Suporte por mensagens</li>
+                                    <li>Acesso para configurações padrões do Van Bot</li>
+                                </ul>
+                            </div>
+                            <div id="div-btn-modal">
+
+                                <a class="btn btn-primary w-50"
+                                id="btn-modal"
+                                role="button"
+                                href="#">Lista de Espera</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card padrão -->
+                <div class="col">
+                    <div class="card" id="card3">
+
+                        
+                        <div class="card-body text-center p-1"
+                        id="card-top">
+                            
+                            <!-- name card padrão -->
+                            <h6 id="name-cards" class="text-uppercase card-subtitle">Padrao</h6>
+                            
+
+                            <!-- img card padrão -->
+                            <div id="img">
+
+                                <img class="card-img-top w-75 d-block"
+                                src="./imagens/planoPadrao.png" />
+                                
+                            </div>
+
+                            <!-- valor card padrão -->
+                            <div id="price-card">
+                                <h5 id="rs-price-cards">R$</h5>
+                                <h4 class="display-4 fw-bold card-title">139</h4>
+                                <h6 id="cents-price-card">90</h6>
+                            </div>
+                        </div>
+
+                            <!-- info card padrão -->
+                        <div class="card-footer p-4" id="card-bottom">
+                            <div>
+                                <ul class="list-unstyled"
+                                 id="txt-card">
+
+                                    <li class="d-flex mb-2">
+
+                                        <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2">
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="1em"
+                                            height="1em"
+                                            fill="currentColor"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-check-lg text-primary">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg>
+
+                                        </span>
+                                        <span>Plano Semestral</span>
+                                    </li>
+
+                                   
+                                
+                            </div>
+                            
+                            <!-- button card padrão -->
+                                <div id="btn-card-3">
+                                    <a class="btn btn-primary d-block w-100"
+                                    role="button"
+                                    id="btn-card2"
+                                    data-toggle="modal"
+                                    data-target=".bd-example-modal3"
+                                    href="#">SABER MAIS</a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal card padrão -->
+                <div class="modal fade bd-example-modal3"
+                id="background-modal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="mySmallModalLabel"
+                aria-hidden="true">
+                
+                    <div class="modal-dialog modal-sm">
+                        
+                        <div class="modal-content"
+                        id="box-modal">
+
+                            <div id="btn-close">
+                                
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="close">
+                                </button>
+
+                            </div>
+
+                            <div id="txt-modal2">
+                                <ul>
+                                    <li>Suporte 24/7 via Discord</li>
+                                    <li>Acesso as configurações avançadas do Van Bot</li>
+                                </ul>
+                            </div>
+                            <div id="div-btn-modal">
+
+                            <a class="btn btn-primary w-50"
+                            id="btn-modal"
+                            role="button"
+                            href="#">Lista de Espera</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card premium -->
+                <div class="col">
+                    <div class="card" id="card2" >
+
+
+                        <!--  name card premium -->
+                        <div class="card-body text-center p-1"
+                        id="card-top" >
+                            
+                            <h6 class="text-uppercase card-subtitle" 
+                            id="name-cards">Premium</h6>
+
+
+                            <!-- image card premium -->
+                            <div id="img">
+
+                            <img class="card-img-top w-75 d-block"
+                            src="./imagens/planoPremium.png" />
+
+                            </div>
+
+                            <!-- valor do card premium -->
+                            <div id="price-card">
+                                <h5 id="rs-price-cards">R$</h5>
+                                <h4 class="display-4 fw-bold card-title">179</h4>
+                                <h6 id="cents-price-card">90</h6>
+                            </div>
+                        </div>
+
+                        <!-- info card pro -->
+                        <div class="card-footer p-4"
+                        id="card-bottom" >
+                            <div>
+                                <ul class="list-unstyled"
+                                 id="txt-card" >
+
+                                    
+
+                                    <li class="d-flex mb-2">
+                                        <span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2">
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="1em"
+                                            height="1em"
+                                            fill="currentColor"
+                                            viewBox="0 0 16 16"
+                                            class="bi bi-check-lg text-primary">
+                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                            </svg>
+                                        </span>
+                                        <span>Plano Anual</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <!-- button card premium -->
+                            <div id="btn-card-2">
+                                <a class="btn btn-primary d-block w-100"
+                                id="btn-card3"
+                                href="#"
+                                data-toggle="modal"
+                                data-target=".bd-example-modal1"
+                                role="button">SABER MAIS</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <!-- modal card premium -->
+                <div class="modal fade bd-example-modal1"
+                id="background-modal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+
+                    <div class="modal-dialog modal-sm">
+
+                        <div class="modal-content"
+                        id="box-modal">
+
+                            <div id="btn-close">
+
+                                <button type="button" class="btn-close" data-dismiss="modal" aria-label="close">
+
+                                </button>
+
+                            </div>
+
+                            <div id="txt-modal3">
+                                <ul>
+                                    <li>Tudo o que o plano Padrão oferece</li>
+                                    <li>Acesso a nossa comunidade de DEV's, podendo trocar experiências e ideias</li>
+                                </ul>
+                            </div>
+
+                            <div id="div-btn-modal">
+
+                                <a class="btn btn-primary w-50"
+                                id="btn-modal"
+                                role="button"
+                                href="#">Lista de Espera</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="color">
+        <section>
+            <!-- Footer -->
+            <footer class="text-center text-white" id="footer">
+                <div class="footer1">
+
+                    <div class="row1">
+                        <a href="#">
+                            <img id="icones" src="imagens/i.png" name="logo-instagram">
+                        </a>
+                        <a href="#">
+                            <img id="icones" src="imagens/y.png" name="logo-youtube">
+                        </a>
+                        <a href="#">
+                            <img id="icones" src="imagens/f.png" name="logo-facebook">
+                        </a>
+                        <a href="#">
+                            <img id="icones" src="imagens/t.png" name="logo-twitter">
+                        </a>
+                    </div>
+
+                    <h5>Ajuda</h5>
+
+                    <div class="row1">
+                        <ul>
+                            <li><a href="#">Termos de uso</a></li>
+                            <li><a href="#">Privacidade</a></li>
+                            <li><a href="#">Central de ajuda</a></li>
+                            <li><a href="#">Preferência de Cookie</a></li>
+                            <li><a href="#">Informações Corporativas</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Copyright -->
+                <div class="text">
+                    Van Bot Copyright © 2022 - Todos os direitos reservados:
+                    <a class="text-white"href="index.html">Van Bot</a>
+                </div>
+            </footer>
+        </section>
+    </div>
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
