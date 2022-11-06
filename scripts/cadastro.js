@@ -98,6 +98,7 @@ btn.addEventListener('click', (e)=>{
         document.querySelector('#bairro').value='';
         document.querySelector('#logradouro').value='';
         document.querySelector('#complemento').value='';
+        window.location.href="./login.html";
     }
 });
 
