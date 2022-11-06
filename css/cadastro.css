@@ -1,0 +1,63 @@
+body{
+    color: rgb(0, 0, 0);
+}
+
+.bg img{
+    opacity: .4;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+}
+
+#titulo{
+    width: 50vw;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    font-family: 'CormorantGaramond', sans-serif;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+}
+
+#subtitulo{
+    font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5vh;
+    font-style: italic;
+}
+
+form{
+    border-radius: 15px;
+    width: 45vw;
+    height: 60vh;
+    padding: 2rem;
+}
+
+label{
+    padding-left: 2rem;
+}
+
+#btnCadastro{
+    font-size: 1.5em;
+    width: 100px;
+    background-color: rgb(163, 170, 61);
+    border: 1px solid rgb(163, 170, 61);
+    color: rgb(29, 92, 173);
+}
+
+#btnCadastro:hover{
+    background-color: rgb(29, 92, 173);
+    border: 1px solid rgb(29, 92, 173);
+    color: rgb(163, 170, 61);
+    transition: 0.5s;
+}
+
+#error{
+    font-size: 1.25em;
+    color: rgb(163, 170, 61);
+    text-align: center;
+    margin-top: 1em;
+}
