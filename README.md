@@ -12,3 +12,5 @@ Integrantes do Grupo:
 - Mariana Figueiredo;
 - Matheus Keher;
 - Thiago Bomfim.
+
+Para ver o site em funcionamento clique aqui: matheusjbk.github.io/projeto-em-grupo-m2/
