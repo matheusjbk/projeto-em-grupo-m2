@@ -1,0 +1,207 @@
+@media (max-width: 1300px){
+    .equipe{
+        display: block;
+        flex-wrap: wrap;
+    }
+    section.equipe{
+        padding: 90px;
+    }
+    #mariana{
+        margin: 15px;
+    }
+    #matheus{
+        margin: 15px;
+    }
+    #lara{
+        margin: 15px;
+    }
+    #thiago{
+        margin: 15px;
+    }
+
+}
+@media (max-width: 1200px){
+    .equipe{
+        display: block;
+        flex-wrap: wrap;
+    }
+    section.equipe{
+        padding: 80px;
+    }
+    #mariana{
+        margin: 10px;
+    }
+    #matheus{
+        margin: 10px;
+    }
+    #lara{
+        margin: 10px;
+    }
+    #thiago{
+        margin: 10px;
+    }
+
+}
+@media (max-width: 1150px){
+    .equipe{
+        display: block;
+        flex-wrap: wrap;
+    }
+    section.equipe{
+        padding: 70px;
+    }
+    #mariana{
+        margin: 5px;
+    }
+    #matheus{
+        margin: 5px;
+    }
+    #lara{
+        margin: 5px;
+    }
+    #thiago{
+        margin: 5px;
+    }
+
+}
+@media (max-width: 1150px){
+    .equipe{
+        display: block;
+        flex-wrap: wrap;
+    }
+}
+
+
+#img-body{
+    opacity: .5 ;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+#lara{
+    display: block;
+    text-align: center;
+    font-family: 'Staatliches';
+    border: 3px solid rgb(29, 92, 173);
+    border-radius: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+#thiago{
+    display: block;
+    text-align: center;
+    font-family: 'Staatliches';
+    border: 3px solid rgb(29, 92, 173);
+    border-radius: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+#mariana{
+    display: block;
+    text-align: center;
+    font-family: 'Staatliches';
+    border: 3px solid rgb(29, 92, 173);
+    border-radius: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+#matheus{
+    display: block;
+    text-align: center;
+    font-family: 'Staatliches';
+    border: 3px solid rgb(29, 92, 173);
+    border-radius: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+h4{
+    background-color: rgb(163, 170, 61);
+}
+h6{
+    background-color: rgb(163, 170, 61);
+    
+}
+
+h5{
+    display: inline-flex;
+}
+#links{
+    color: rgb(29, 92, 173) !important;
+    background: none !important;
+    font-size: 17;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* Ajustes tema  */
+.tema{
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family:'CormorantGaramond' !important;
+    margin-top: 50px;
+    font-size: 70px;
+}
+
+/* Ajustes nossa  */
+.nossa{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+/* Ajustes equipe  */
+.equipe{
+    display: flex;
+    flex-direction: row;
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding: 100px;  
+    margin-bottom: 100px;
+
+}
+
+.text-white{
+    text-decoration: none;
+    color: black;
+}
+
+.equipe > div {
+    flex: 1 1 100px; 
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.equipe p{
+    font-family: 'Staatliches';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'CormorantGaramond';
+    border-radius: 50px; 
+  
+}
+
+.equipe h3{
+    font-family: 'Staatliches';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'CormorantGaramond';
+    border-radius: 50px; 
+    
+}
+
+
