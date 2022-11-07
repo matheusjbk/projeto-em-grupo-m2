@@ -13,4 +13,4 @@ Integrantes do Grupo:
 - Matheus Keher;
 - Thiago Bomfim.
 
-Para ver o site em funcionamento clique aqui: matheusjbk.github.io/projeto-em-grupo-m2/
+Para ver o site em funcionamento clique aqui: https://matheusjbk.github.io/projeto-em-grupo-m2/
