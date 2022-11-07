@@ -69,10 +69,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-a:checked{
-    color: white;
-}
-a:hover {
+
+nav a:hover {
     background: rgba(255, 255, 255, 0.192);
     transition: .5s;
     text-decoration: none !important;
